@@ -13,10 +13,10 @@ public class MyArray {
     }
 
     MyArray(MyArray other) {
-        this.capacity = other.capacity;
-        this.size = other.size;
-        values = new double[other.capacity];
-        System.arraycopy(other.values, 0, values, 0, other.size);
+        this.capacity = other.getSize();
+        this.size = other.getSize();
+        values = new double[other.getSize()];
+        System.arraycopy(other.getValues(), 0, values, 0, other.getSize());
     }
 
     MyArray(double values[]) {
@@ -24,7 +24,8 @@ public class MyArray {
         capacity = values.length;
         size = values.length;
         this.values = new double[capacity];
-        System.arraycopy(values, 0, this.values, 0, size);
+        System.arraycopy(values, 0, this.values, 0, this.size);
+        
 
     }
 
@@ -135,11 +136,9 @@ public class MyArray {
 
     public boolean equals(MyArray other) {
         
-        if(size != other.size) {
-            return false;
-        }
+
         for(int i = 0; i < size; i++) {
-            if(values[i] != other.values[i]) {
+            if(values[i] != other.getValueAt(i)) {
                 return false;
             }
         }
