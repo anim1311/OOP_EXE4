@@ -11,8 +11,11 @@ public class RegularPolygon {
 
     RegularPolygon(int n, double length) {
         this();
-        if(n > 2 && length > 0) {
+        if(n > 2 ) {
             this.n = n;
+            
+        }
+        if(length >0){
             this.length = length;
         }
     }
@@ -21,8 +24,11 @@ public class RegularPolygon {
         this(n, length);
         this.x = x;
         this.y = y;
-        if(n > 2 && length > 0) {
+        if(n > 2 ) {
             this.n = n;
+            
+        }
+        if(length >0){
             this.length = length;
         }
 
