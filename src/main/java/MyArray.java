@@ -65,7 +65,7 @@ public class MyArray {
     public double getMedian(){
 
         double temp[] = new double[size];
-        System.arraycopy(values, capacity, values, size, capacity);
+        System.arraycopy(values,0,temp,0,size);
         Arrays.sort(temp);
 
         if (temp.length % 2 == 0) {
@@ -96,7 +96,7 @@ public class MyArray {
     public double[] getSortedArray(){
         
         double temp[] = new double[size];
-        System.arraycopy(values, capacity, values, size, capacity);
+        System.arraycopy(values, 0, temp, 0, size);
         Arrays.sort(temp);
         return temp;
     }
@@ -136,7 +136,6 @@ public class MyArray {
 
     public boolean equals(MyArray other) {
         
-
         for(int i = 0; i < size; i++) {
             if(values[i] != other.getValueAt(i)) {
                 return false;
