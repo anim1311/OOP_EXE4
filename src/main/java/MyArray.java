@@ -13,6 +13,8 @@ public class MyArray {
     }
 
     MyArray(MyArray other) {
+        this.capacity = other.capacity;
+        this.size = other.size;
         values = new double[other.capacity];
         System.arraycopy(other.values, 0, values, 0, other.size);
     }
