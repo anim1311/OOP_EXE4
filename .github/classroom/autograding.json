@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "Task 1 a",
+      "setup": "",
+      "run": "gradle test --tests TestExercise04a.test01",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task 1 b",
+      "setup": "",
+      "run": "gradle test --tests TestExercise04a.test02",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task 1 c",
+      "setup": "",
+      "run": "gradle test --tests TestExercise04a.test03",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task 1 d",
+      "setup": "",
+      "run": "gradle test --tests TestExercise04a.test04",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task 1 e",
+      "setup": "",
+      "run": "gradle test --tests TestExercise04a.test05",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task 1 f",
+      "setup": "",
+      "run": "gradle test --tests TestExercise04a.test06",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task 2 a",
+      "setup": "",
+      "run": "gradle test --tests TestExercise04b.test01",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task 2 b",
+      "setup": "",
+      "run": "gradle test --tests TestExercise04b.test02",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task 2 c",
+      "setup": "",
+      "run": "gradle test --tests TestExercise04b.test03",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task 2 d",
+      "setup": "",
+      "run": "gradle test --tests TestExercise04b.test04",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
